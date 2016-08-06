@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".type.ObserverPatternActivity">
+
+    <Button
+        android:id="@+id/btn_sleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ActionClick"
+        android:text="美女睡觉" />
+
+    <Button
+        android:id="@+id/btn_eat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ActionClick"
+        android:text="美女吃饭" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="boy01" />
+
+    <TextView
+        android:id="@+id/boy01_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="boy02" />
+
+    <TextView
+        android:id="@+id/boy02_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="boy03" />
+
+    <TextView
+        android:id="@+id/boy03_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
