@@ -3,7 +3,6 @@ package com.caoyang.pattern.type;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import com.caoyang.pattern.R;
@@ -11,9 +10,6 @@ import com.caoyang.pattern.observer.Boy01;
 import com.caoyang.pattern.observer.Boy02;
 import com.caoyang.pattern.observer.Boy03;
 import com.caoyang.pattern.observer.Girl;
-import com.orhanobut.logger.Logger;
-
-import java.util.Observer;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
